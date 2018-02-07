@@ -9,4 +9,4 @@ var addElementToBeginningOfArray = (array, element) => {return [element, ...arra
 
 var destructivelyAddElementToBeginningOfArray = (array, element) => {array.unshift(element)};
 
-var addElementToEndOfArray = (array , element) => return [array, ...element];
+var addElementToEndOfArray = (array , element) => {return [array, ...element]};
