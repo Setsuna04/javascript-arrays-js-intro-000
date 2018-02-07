@@ -7,6 +7,6 @@ var chocolateBars = [
 
 var addElementToBeginningOfArray = (array, element) => {return [element, ...array] };
 
-var destructivelyAddElementToBeginningOfArray = (array, element) => {array.unshift(element)};
+var destructivelyAddElementToBeginningOfArray = (array, element) => {array.unshift(element);}
 
-var addElementToEndOfArray = (array , element) => {return [array, ...element]};
+var addElementToEndOfArray = (array , element) => {return [array, ...element];}
