@@ -10,5 +10,3 @@ var addElementToBeginningOfArray = (array, element) => {return [element, ...arra
 function destructivelyAddElementToBeginningOfArray(array, element) {array.unshift(element);}
 
 var addElementToEndOfArray = (array , element) => {return [...array, element];}
-
-
